@@ -1,0 +1,101 @@
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+
+body {
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+}
+
+img.border-nav {
+    height: 1px;
+    width: 100%;
+    position: absolute;
+}
+
+.carouselglobal {
+    margin-top: 1px;
+}
+
+.mot {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card {
+    background-color: #000;
+    border: solid 1px #90033c;
+    min-height: 400px;
+}
+
+b {
+    color: #EB008B;
+}
+
+p,
+a {
+    color: #ccc;
+}
+
+
+
+h1 {
+    font-weight: 200;
+    color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.contact-block {
+    background: #90033c;
+}
+
+.pink {
+    color: #EB008B;
+}
+
+.grey {
+    color: #6C757D;
+}
+
+.navigation-clean .navbar-toggler {
+    border: none;
+    color: #90033c;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
+    .mot {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .nous {
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .nous {
+        padding-top: inherit;
+        padding-bottom: 50px;
+    }
+    .mot {
+        padding-top: inherit;
+        padding-bottom: inherit;
+    }
+}
