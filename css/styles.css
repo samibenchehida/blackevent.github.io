@@ -80,6 +80,8 @@ h1 {
     .nous {
         padding-top: 50px;
     }
+    
+    .maps{top:20%;}
 }
 
 @media only screen and (max-width: 480px) {
@@ -91,4 +93,6 @@ h1 {
         padding-top: inherit;
         padding-bottom: inherit;
     }
+    
+    .maps{top:inherit;}
 }
